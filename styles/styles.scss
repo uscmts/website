@@ -1,0 +1,216 @@
+@use 'uswds-core' as * with (
+  $theme-show-notifications: false,
+  $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
+  $theme-font-type-sans: 'public-sans'
+ // $theme-hero-image: '../_img/headers/home.jpg'
+);
+
+@forward 'uswds';
+
+.fr {
+  float: right !important; }
+
+.photo {
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0.5em 1em; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+  
+.article h1 {
+  margin-bottom: 0.5em; }
+
+.article h1, .center-title {
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #32c5d2;
+  position: relative;
+  font-family: Raleway,Open Sans,Roboto,sans-serif;
+  font-weight: 600; }
+
+.article h1:after, .center-title:after {
+  content: "";
+  width: 80%;
+  display: block;
+  margin: 12px auto 8px;
+  height: 4px;
+  background: transparent;
+  border-top: 1px solid #32c5d2;
+  border-bottom: 1px solid #32c5d2; }
+
+.article section {
+  border-bottom: 1px solid #e2e1e1;
+  padding: 0.5em 0.5em 1em; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+// Example - Override the background image in the hero component using CSS:
+.usa-hero-home {
+  background-image: url("../_img/headers/home.jpg");
+  //background-image: "/assets/img/headers/home.jpg";
+  background-position: 50%;
+  height: 350px; 
+  background-size: cover;
+}
+
+.cmts-logo {
+  position:absolute;
+  top: 220px;
+}
+
+.files ul {
+  margin: 0;
+  padding-left: 0; }
+  .files ul li {
+    list-style: none; }
+.files a {
+  display: block;
+  padding: .2em .75em;
+  margin: .5em 0;
+  font-size: 1em;
+  line-height: 1.4em;
+  border: 1px solid #32c5d2;
+  background: #dff6f7;
+  border-radius: 0 5px 5px 0;
+  border-left: 1em solid #32c5d2; }
+  .files a time {
+    float: right;
+    font-size: small;
+    margin-left: .3em; }
+  .files a span {
+    display: block;
+    text-align: right;
+    font-size: small;
+    margin-left: .3em; }
+
+.usa-hero-topic-ocean-policy {
+  background-image: url("../_img/headers/topic_ocean_policy.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-future {
+    background-image: url("../_img/headers/topic_future.jpg");
+
+    background-position: 50%;
+    height: 150px;
+    background-size: cover; }
+
+.usa-hero-compendium {
+  background-image: url("../_img/headers/compendium.jpg");
+
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-why-cmts-matters {
+  background-image: url("../_img/headers/why_cmts_matters.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+  .usa-hero-topic-mariner-and-workforce {
+    background-image: url("../_img/headers/topic_mariner_and_workforce.jpg");
+    background-position: 50%;
+    height: 150px;
+    background-size: cover; }
+
+.usa-hero-topic-priorities {
+  background-image: url("../_img/headers/topic_priorities.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-history {
+  background-image: url("../_img/headers/history.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+  .usa-hero-downloads{
+    background-image: url("../_img/headers/downloads.jpg");
+    background-position: 50%;
+    height: 150px;
+    background-size: cover; }
+
+.usa-hero-topic-covid {
+  background-image: url("../_img/headers/topic_covid.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-maritime {
+  background-image: url("../_img/headers/topic_maritime.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+//future adn national strategy
+.usa-hero-national-strategy {
+  background-image: url("../_img/headers/national_strategy.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-cmts-org-structure {
+  background-image: url("../_img/headers/cmts_org_structure.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-arctic {
+  background-image: url("../_img/headers/topic_arctic.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-m2m {
+  background-image: url("../_img/headers/topic_military_to_mariner.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-research-and-development {
+  background-image: url("../_img/headers/topic_research_and_development.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-supply {
+  background-image: url("../_img/headers/topic_supply.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-directives {
+  background-image: url("../_img/headers/directives.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-resilience {
+  background-image: url("../_img/headers/topic_resilience.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-why-mts-matters {
+  background-image: url("../_img/headers/why_mts_matters.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+.usa-hero-topic-offshore-energy {
+  background-image: url("../_img/headers/topic_offshore_energy.jpg");
+  background-position: 50%;
+  height: 150px;
+  background-size: cover; }
+
+
