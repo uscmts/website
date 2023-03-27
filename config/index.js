@@ -6,7 +6,7 @@ async function imageWithClassShortcode(
   cls,
   alt
 ) {
-    let pathPrefix = '/website/';
+    let pathPrefix = '../../site/uscmts/website/';
 
   if (process.env.BASEURL) {
     pathPrefix = process.env.BASEURL
