@@ -10,7 +10,7 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 module.exports = function (config) {
   // Set pathPrefix for site
-    let pathPrefix = 'https://federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.cloud.gov/site/uscmts/website/';
+    let pathPrefix = '/';
 
   // Copy the `admin` folders to the output
   //config.addPassthroughCopy('admin');

@@ -3,7 +3,7 @@ email: info@cmts.gov
 description: >- # this means to ignore newlines
    The CMTS serves as a Federal interagency coordinating committee for the purpose of assessing the adequacy of the marine transportation system, promoting the integration of the marine transportation system with other modes of transportation and other uses of the marine environment, and coordinating, improving the coordination of, and making recommendations with regard to Federal policies that impact the marine transportation system.
 
-#baseurl: /site
+baseurl: /website
 
 # Twitter handle. Only the handle, not the URL.
 twitter: uscmts
