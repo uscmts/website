@@ -11,7 +11,6 @@ async function createAssetPaths() {
     pathPrefix = process.env.BASEURL
   }
 
-  pathPrefix = 'website'
 
   const assetPath = path.join(__dirname, '../_site/assets');
   const assetDirs = await fs.readdir(assetPath);
