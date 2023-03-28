@@ -1,4 +1,4 @@
-# 11ty-uswds-template
+# CMTS uses the 11ty-uswds-template
 
 ## Why this project
 
@@ -75,6 +75,13 @@ ga:
   # ua: your-ua
 ```
 
+```
+Links:
+  Change the in _data/site.yaml, for example:
+
+  baseurl: https://federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.cloud.gov/site/uscmts/website
+  If running it locally then comment out the baseurl. 
+```
 ## Getting Started
 
 ### Installing Dependencies
@@ -93,8 +100,8 @@ TODO
 
 
 
-### Config
-NOTE: The admin console has been removed. 
+### Config: NOTE: The admin console has been removed. 
+
 The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) and you will update the
 `repo` key to be your Github organization and repository name.
 
@@ -109,7 +116,7 @@ backend:
   use_graphql: true
 ```
 
-### Running Locally
+### Running Locally NOTE: The Netlify CMS has been removed.
 
 You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
 We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
