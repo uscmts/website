@@ -75,12 +75,7 @@ ga:
   # ua: your-ua
 ```
 
-```
-Links:
-  Change the in _data/site.yaml, for example:
 
-  baseurl: https://federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.cloud.gov/site/uscmts/website
-  If running it locally then comment out the baseurl. 
 ```
 ## Getting Started
 
@@ -95,6 +90,14 @@ TODO
 `npm run dev`
 
 TODO
+
+### Updating the baserurl
+
+Change the in _data/site.yaml, for example:
+
+baseurl: https://federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.cloud.gov/site/uscmts/website
+
+Note: if running it locally then comment out the baseurl. 
 
 ## Netlify CMS
 
