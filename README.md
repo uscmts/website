@@ -76,7 +76,6 @@ ga:
 ```
 
 
-```
 ## Getting Started
 
 ### Installing Dependencies
