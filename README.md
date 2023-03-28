@@ -90,7 +90,7 @@ TODO
 
 TODO
 
-### Updating the baserurl
+### Updating the baseurl parameter for deploying in different environments (modifies pathing)
 
 Change the in _data/site.yaml, for example:
 
