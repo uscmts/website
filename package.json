@@ -50,11 +50,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tparks100/cmts11ty2.git"
+    "url": "git+https://github.com/uscmts/website.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/tparks100/cmts11ty2/issues"
+    "url": "https://github.com/uscmts/website/issues"
   },
-  "homepage": "https://github.com/tparks100/cmts11ty2#readme"
+  "homepage": "https://github.com/uscmts/website#readme"
 }

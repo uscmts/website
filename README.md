@@ -98,11 +98,11 @@ baseurl: https://federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.clo
 
 Note: if running it locally then comment out the baseurl. 
 
-## Netlify CMS
+## Netlify CMS - NOTE: The Netlify CMS has been removed. Omit this section.
 
 
 
-### Config: NOTE: The admin console has been removed. 
+### Config:
 
 The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) and you will update the
 `repo` key to be your Github organization and repository name.
@@ -118,7 +118,7 @@ backend:
   use_graphql: true
 ```
 
-### Running Locally NOTE: The Netlify CMS has been removed.
+### Running Locally 
 
 You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
 We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
